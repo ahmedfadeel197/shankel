@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO & Social Meta Tags -->
+  <title>أحمد شنكل | مدرب برمجة ومستشار تقني</title>
+  <meta name="description" content="الموقع الشخصي للمدرب والمستشار البرمجي أحمد شنكل. شروحات برمجية، كورسات تدريبية شاملة، واستشارات تقنية مخصصة لتطوير مهاراتك في البرمجة وتطوير الويب.">
+  <meta name="keywords" content="أحمد شنكل, تعلم البرمجة, كورسات برمجة, شروحات تطوير الويب, استشارات تقنية, جافاسكربت, HTML, CSS">
+  <meta name="author" content="أحمد شنكل">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="أحمد شنكل | مدرب برمجة ومستشار تقني">
+  <meta property="og:description" content="شروحات تطبيقية، كورسات برمجية متقدمة، وجلسات استشارية فردية لتطوير مسارك المهني في البرمجة.">
+  <meta property="og:image" content="assets/ahmed-shankal-avatar.svg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts: Cairo & Tajawal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="skip-link">الانتقال مباشرة إلى المحتوى الرئيسي</a>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="أحمد شنكل - الصفحة الرئيسية">
+        <span class="brand-symbol" aria-hidden="true">&lt;/&gt;</span>
+        <span class="brand-name">أحمد شنكل</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-nav" id="main-nav" aria-label="التنقل الرئيسي">
+        <ul class="nav-list" id="nav-links">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active" data-nav="home">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tutorials" class="nav-link" data-nav="tutorials">شروحات</a>
+          </li>
+          <li class="nav-item">
+            <a href="#courses" class="nav-link" data-nav="courses">كورسات</a>
+          </li>
+          <li class="nav-item">
+            <a href="#consultation" class="nav-link" data-nav="consultation">حجز استشارات</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Quick Action CTA & Mobile Toggle -->
+      <div class="header-actions">
+        <a href="#consultation" class="btn btn-sm btn-outline nav-cta">طلب استشارة</a>
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="فتح القائمة الرئيسية">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Page Content -->
+  <main id="main-content">
+    
+    <!-- Hero Section (الرئيسية) -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>المنصة التعليمية والاستشارية الرسمية</span>
+          </div>
+          
+          <h1 class="hero-title">
+            أهلاً بك، أنا <span class="text-accent">أحمد شنكل</span>
+          </h1>
+          
+          <p class="hero-description">
+            مدرب برمجة ومستشار تقني. أقدّم شروحات تطبيقية، وكورسات تدريبية شاملة، واستشارات شخصية متخصصة لمساعدتك في بناء أساس برمجي متين والانطلاق بثقة في مسارك المهني.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-primary btn-lg">
+              <span>استكشف الكورسات</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+            </a>
+            <a href="#consultation" class="btn btn-secondary btn-lg">
+              <span>احجز استشارة</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Highlight Pillars -->
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <strong class="highlight-title">شروحات تطبيقية</strong>
+                <span class="highlight-desc">دروس عملية لتبسيط المفاهيم المعقدة</span>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <strong class="highlight-title">كورسات تدريبية</strong>
+                <span class="highlight-desc">مسارات تعليمية متسلسلة بمشاريع حقيقية</span>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <strong class="highlight-title">استشارات مخصصة</strong>
+                <span class="highlight-desc">جلسات فردية لمراجعة كودك وتوجيهك المهني</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Profile Image Container -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-glow"></div>
+            <!-- Professional Profile Picture Placeholder: Easily replaceable by updating the src attribute with real photo (e.g. assets/ahmed.jpg) -->
+            <div class="profile-img-wrapper">
+              <img 
+                src="assets/ahmed-shankal-avatar.svg" 
+                alt="الصورة الشخصية لأحمد شنكل - مدرب ومستشار برمجي" 
+                class="profile-img" 
+                id="profile-picture"
+                width="420"
+                height="420"
+                loading="eager"
+              >
+            </div>
+            
+            <div class="profile-footer-tag">
+              <span class="status-indicator"></span>
+              <span>متاح للاستشارات والكورسات التدريبية</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tutorials Section (الشروحات) -->
+    <section class="section tutorials-section" id="tutorials">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag">مكتبة المعرفة</span>
+          <h2 class="section-title">الشروحات</h2>
+          <p class="section-subtitle">
+            دروس برمجية وشروحات عملية تركز على المهارات الأساسية والممارسات البرمجية السليمة.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="filter-wrapper" role="region" aria-label="تصفية الشروحات حسب التصنيف">
+          <div class="filter-tabs" id="tutorial-filters" role="tablist">
+            <!-- Filter buttons injected via JS -->
+          </div>
+        </div>
+
+        <!-- Tutorials Grid -->
+        <div class="tutorials-grid" id="tutorials-container" aria-live="polite">
+          <!-- Tutorial cards injected via JS -->
+        </div>
+
+        <!-- Empty State for Filters (Hidden by default) -->
+        <div class="empty-state" id="tutorials-empty" style="display: none;">
+          <p>لا توجد شروحات متاحة حالياً في هذا التصنيف.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section (الكورسات) -->
+    <section class="section courses-section" id="courses">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag">برامج مكثفة</span>
+          <h2 class="section-title">الكورسات التدريبية</h2>
+          <p class="section-subtitle">
+            كورسات عملية تأخذك خطوة بخطوة من المفاهيم الأساسية حتى بناء مشاريع حقيقية متكاملة.
+          </p>
+        </div>
+
+        <!-- Courses Grid -->
+        <div class="courses-grid" id="courses-container">
+          <!-- Course cards injected via JS -->
+        </div>
+
+        <!-- Prototype Disclaimer Note -->
+        <div class="prototype-notice">
+          <div class="notice-icon" aria-hidden="true">💡</div>
+          <p class="notice-text">
+            <strong>تنويه:</strong> هذا الموقع يمثل نموذجاً برمجياً تفاعلياً (Front-end Prototype). حجز الكورس يسجّل طلبك المبدئي فقط دون أي عمليات دفع إلكتروني، وستتم مراجعة الطلب والتواصل معك لتأكيد الموعد.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consultation Section (حجز استشارات) -->
+    <section class="section consultation-section" id="consultation">
+      <div class="container consultation-container">
+        <!-- Header & Info -->
+        <div class="consultation-info">
+          <span class="section-tag">جلسات توجيه فردية</span>
+          <h2 class="section-title">حجز استشارة خاصة</h2>
+          <p class="consultation-intro">
+            هل تواجه صعوبة في فهم مفهوم برمجي، تحتاج مراجعة شاملة لمشروعك، أو ترغب في رسم خطة تعليمية ومهنية تناسب أهدافك؟ يمكنك حجز جلسة استشارية فردية ومباشرة معي.
+          </p>
+
+          <div class="consultation-perks">
+            <div class="perk-card">
+              <span class="perk-icon" aria-hidden="true">🎯</span>
+              <div class="perk-details">
+                <h3>توجيه مهني عملي</h3>
+                <p>مساعدتك في اختيار المسار التقني الأنسب لسوق العمل وترتيب أولويات تعلمك.</p>
+              </div>
+            </div>
+
+            <div class="perk-card">
+              <span class="perk-icon" aria-hidden="true">🔍</span>
+              <div class="perk-details">
+                <h3>مراجعة الكود والمشاريع</h3>
+                <p>فحص هيكلة الكود وتقديم نصائح لتحسين الأداء والأمان وقابلية الصيانة.</p>
+              </div>
+            </div>
+
+            <div class="perk-card">
+              <span class="perk-icon" aria-hidden="true">💬</span>
+              <div class="perk-details">
+                <h3>جلسة نقاش مباشرة</h3>
+                <p>إجابة دقيقة عن استفساراتك التقنية وحل العقبات التي تواجهك في مشاريعك.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Consultation Form Card -->
+        <div class="consultation-card">
+          <div class="card-header-styled">
+            <h3 class="form-heading">نموذج طلب الاستشارة</h3>
+            <p class="form-subheading">املأ البيانات التالية وسيتم الرد عليك عبر البريد الإلكتروني أو الهاتف.</p>
+          </div>
+
+          <!-- The Form -->
+          <form id="consultation-form" class="consultation-form" novalidate>
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="consult-name" class="form-label">
+                الاسم الكامل <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input 
+                type="text" 
+                id="consult-name" 
+                name="name" 
+                class="form-control" 
+                placeholder="مثال: محمد عبد الله" 
+                required 
+                autocomplete="name"
+              >
+              <div class="field-error" id="consult-name-error" role="alert"></div>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+              <label for="consult-email" class="form-label">
+                البريد الإلكتروني <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input 
+                type="email" 
+                id="consult-email" 
+                name="email" 
+                class="form-control" 
+                placeholder="name@example.com" 
+                required 
+                autocomplete="email"
+                dir="ltr"
+              >
+              <div class="field-error" id="consult-email-error" role="alert"></div>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+              <label for="consult-phone" class="form-label">
+                رقم الهاتف / واتساب <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input 
+                type="tel" 
+                id="consult-phone" 
+                name="phone" 
+                class="form-control" 
+                placeholder="05XXXXXXXX أو +966..." 
+                required 
+                autocomplete="tel"
+                dir="ltr"
+              >
+              <div class="field-error" id="consult-phone-error" role="alert"></div>
+            </div>
+
+            <!-- Consultation Type (Optional Dropdown) -->
+            <div class="form-group">
+              <label for="consult-type" class="form-label">نوع الاستشارة (اختياري)</label>
+              <select id="consult-type" name="type" class="form-control form-select">
+                <option value="">-- اختر مجال الاستشارة --</option>
+                <option value="career-guidance">توجيه مهني ورسم خطة تعلم البرمجة</option>
+                <option value="code-review">مراجعة كود وبنية مشروع برمجي</option>
+                <option value="interview-prep">التحضير للمقابلات التقنية لمطوري الويب</option>
+                <option value="general-consult">استشارة تقنية عامة وحل مشكلة برمجية</option>
+              </select>
+            </div>
+
+            <!-- Consultation Details (Optional Textarea) -->
+            <div class="form-group">
+              <label for="consult-details" class="form-label">تفاصيل الاستشارة (اختياري)</label>
+              <textarea 
+                id="consult-details" 
+                name="details" 
+                class="form-control" 
+                rows="4" 
+                placeholder="اذكر بإيجاز الموضوع أو التحدي الذي تود مناقشته خلال الجلسة..."
+              ></textarea>
+            </div>
+
+            <!-- Demo Notice Inside Form -->
+            <p class="form-prototype-hint">
+              <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+              </svg>
+              هذا النموذج يوضح تدفق التحقق على الواجهة الأمامية، وهو جاهز للربط بأي واجهة برمجية (Backend API) أو خدمة بريد إلكتروني.
+            </p>
+
+            <!-- Submit Button -->
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-block" id="consult-submit-btn">
+                <span class="btn-text">إرسال طلب الاستشارة</span>
+                <span class="btn-spinner" aria-hidden="true" style="display: none;"></span>
+              </button>
+            </div>
+          </form>
+
+          <!-- Success State Message (Initially Hidden) -->
+          <div class="form-success-box" id="consult-success" style="display: none;" role="status" aria-live="polite">
+            <div class="success-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#10b981" stroke-width="2.5">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <h4 class="success-title">تم تسجيل طلب الاستشارة بنجاح!</h4>
+            <div class="success-details" id="consult-success-summary">
+              <!-- Summary populated dynamically -->
+            </div>
+            <p class="success-note">
+              تم تسجيل الطلب في هذا النموذج التجريبي بنجاح. سيتمكن النظام المستقبلي من إرسال إشعار فوري لأحمد لتحديد الموعد.
+            </p>
+            <button type="button" class="btn btn-secondary btn-sm" id="consult-reset-btn">
+              إرسال طلب استشارة آخر
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Course Booking Modal Dialog -->
+  <div class="modal-backdrop" id="course-modal-backdrop" aria-hidden="true">
+    <div 
+      class="modal-dialog" 
+      role="dialog" 
+      aria-modal="true" 
+      aria-labelledby="course-modal-title"
+      id="course-modal"
+    >
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h3 class="modal-title" id="course-modal-title">حجز كورس تدريبي</h3>
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="إغلاق نافذة الحجز">
+          &times;
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        
+        <!-- Booking Form -->
+        <form id="course-booking-form" novalidate>
+          <div class="modal-alert-info">
+            <p>
+              <strong>طلب حجز مبدئي:</strong> يرجى إدخال بياناتك للتواصل معك وإكمال ترتيبات الانضمام للكورس.
+            </p>
+          </div>
+
+          <!-- Selected Course (Read-only / Pre-populated) -->
+          <div class="form-group">
+            <label for="book-course-display" class="form-label">الكورس المختار</label>
+            <div class="selected-course-badge" id="selected-course-badge">
+              <span class="badge-icon">📚</span>
+              <span class="badge-course-name" id="book-course-display">اسم الكورس</span>
+              <span class="badge-course-price" id="book-course-price-badge">0 $</span>
+            </div>
+            <input type="hidden" id="book-course-id" name="course_id" value="">
+            <input type="hidden" id="book-course-title" name="course_title" value="">
+          </div>
+
+          <!-- Full Name -->
+          <div class="form-group">
+            <label for="book-name" class="form-label">
+              الاسم الكامل <span class="required-star" aria-hidden="true">*</span>
+            </label>
+            <input 
+              type="text" 
+              id="book-name" 
+              name="name" 
+              class="form-control" 
+              placeholder="مثال: أحمد عبد الله" 
+              required 
+              autocomplete="name"
+            >
+            <div class="field-error" id="book-name-error" role="alert"></div>
+          </div>
+
+          <!-- Email Address -->
+          <div class="form-group">
+            <label for="book-email" class="form-label">
+              البريد الإلكتروني <span class="required-star" aria-hidden="true">*</span>
+            </label>
+            <input 
+              type="email" 
+              id="book-email" 
+              name="email" 
+              class="form-control" 
+              placeholder="name@example.com" 
+              required 
+              autocomplete="email"
+              dir="ltr"
+            >
+            <div class="field-error" id="book-email-error" role="alert"></div>
+          </div>
+
+          <!-- Phone Number -->
+          <div class="form-group">
+            <label for="book-phone" class="form-label">
+              رقم الهاتف / واتساب <span class="required-star" aria-hidden="true">*</span>
+            </label>
+            <input 
+              type="tel" 
+              id="book-phone" 
+              name="phone" 
+              class="form-control" 
+              placeholder="05XXXXXXXX أو +966..." 
+              required 
+              autocomplete="tel"
+              dir="ltr"
+            >
+            <div class="field-error" id="book-phone-error" role="alert"></div>
+          </div>
+
+          <!-- Optional Notes -->
+          <div class="form-group">
+            <label for="book-notes" class="form-label">ملاحظات أو استفسارات إضافية (اختياري)</label>
+            <textarea 
+              id="book-notes" 
+              name="notes" 
+              class="form-control" 
+              rows="3" 
+              placeholder="هل لديك أي استفسار حول مواعيد الكورس أو المتطلبات المسبقة؟"
+            ></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="modal-actions">
+            <button type="submit" class="btn btn-primary btn-block" id="book-submit-btn">
+              <span class="btn-text">تأكيد طلب الحجز</span>
+              <span class="btn-spinner" aria-hidden="true" style="display: none;"></span>
+            </button>
+            <button type="button" class="btn btn-outline btn-block" id="modal-cancel-btn">
+              إلغاء
+            </button>
+          </div>
+        </form>
+
+        <!-- Booking Confirmation State (Initially Hidden) -->
+        <div class="modal-confirmation-state" id="book-confirmation-state" style="display: none;" role="status">
+          <div class="confirmation-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="#10b981" stroke-width="2.5">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M8 12l3 3 6-6"/>
+            </svg>
+          </div>
+          <h4 class="confirm-title">تم تسجيل طلب حجز الكورس بنجاح</h4>
+          <p class="confirm-subtitle">
+            شكراً لاهتمامك بالانضمام إلى الكورس التدريبي مع أحمد شنكل. فيما يلي ملخص لبيانات طلبك:
+          </p>
+
+          <div class="confirm-summary-card" id="booking-summary-content">
+            <!-- Injected by JS -->
+          </div>
+
+          <div class="prototype-badge-box">
+            <span class="badge-pill">تجربة حجز مبدئية</span>
+            <p>
+              تم حفظ بيانات الطلب محلياً في هذا النموذج التجريبي بنجاح. لا توجد أي عملية سحب مالي، وسيتم التواصل معك على بياناتك أعلاه لاستكمال إجراءات التسجيل.
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-primary btn-block" id="confirm-finish-btn">
+            حسناً، تم الاطلاع
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Tutorial Preview Modal -->
+  <div class="modal-backdrop" id="tutorial-modal-backdrop" aria-hidden="true">
+    <div 
+      class="modal-dialog modal-dialog-lg" 
+      role="dialog" 
+      aria-modal="true" 
+      aria-labelledby="tutorial-modal-title"
+      id="tutorial-modal"
+    >
+      <div class="modal-header">
+        <h3 class="modal-title" id="tutorial-modal-title">تفاصيل الشرح</h3>
+        <button type="button" class="modal-close-btn" id="tutorial-modal-close-btn" aria-label="إغلاق تفاصيل الشرح">
+          &times;
+        </button>
+      </div>
+
+      <div class="modal-body" id="tutorial-modal-body">
+        <!-- Tutorial details injected dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <!-- Brand & Bio Column -->
+      <div class="footer-col footer-brand-col">
+        <a href="#home" class="brand-logo footer-logo">
+          <span class="brand-symbol" aria-hidden="true">&lt;/&gt;</span>
+          <span class="brand-name">أحمد شنكل</span>
+        </a>
+        <p class="footer-bio">
+          مدرب برمجة ومستشار تقني متخصص في تطوير واجهات وتطبيقات الويب الحديثة. أساعد المطورين والمهتمين على اكتساب المهارات العملية لبناء مشاريع ناجحة.
+        </p>
+      </div>
+
+      <!-- Quick Nav Links -->
+      <div class="footer-col footer-links-col">
+        <h4 class="footer-heading">روابط سريعة</h4>
+        <ul class="footer-nav">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#tutorials">الشروحات البرمجية</a></li>
+          <li><a href="#courses">الكورسات التدريبية</a></li>
+          <li><a href="#consultation">حجز استشارة خاصة</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media & Contact Links (Fully Editable Placeholders) -->
+      <div class="footer-col footer-social-col">
+        <h4 class="footer-heading">تواصل وتابع الجديد</h4>
+        <p class="footer-social-desc">
+          يمكنك متابعة الشروحات والتواصل عبر المنصات التالية (روابط قابلة للتعديل):
+        </p>
+        <div class="social-links-grid">
+          
+          <!-- YouTube (Placeholder) -->
+          <a href="https://youtube.com/@ahmed_shankal_placeholder" target="_blank" rel="noopener noreferrer" class="social-link-item" aria-label="قناة يوتيوب لأحمد شنكل">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            <span>يوتيوب</span>
+          </a>
+
+          <!-- GitHub (Placeholder) -->
+          <a href="https://github.com/ahmed-shankal-placeholder" target="_blank" rel="noopener noreferrer" class="social-link-item" aria-label="حساب جيت هب لأحمد شنكل">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>جيت هب</span>
+          </a>
+
+          <!-- LinkedIn (Placeholder) -->
+          <a href="https://linkedin.com/in/ahmed-shankal-placeholder" target="_blank" rel="noopener noreferrer" class="social-link-item" aria-label="حساب لينكد إن لأحمد شنكل">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>لينكد إن</span>
+          </a>
+
+          <!-- X / Twitter (Placeholder) -->
+          <a href="https://x.com/ahmed_shankal_placeholder" target="_blank" rel="noopener noreferrer" class="social-link-item" aria-label="حساب إكس تويتر لأحمد شنكل">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+            <span>منصة X</span>
+          </a>
+
+          <!-- Email (Placeholder) -->
+          <a href="mailto:contact@ahmed-shankal-placeholder.com" class="social-link-item" aria-label="مراسلة أحمد شنكل عبر البريد الإلكتروني">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+            <span>البريد الإلكتروني</span>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright Bar -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          جميع الحقوق محفوظة &copy; <span id="current-year">2026</span> <strong>أحمد شنكل</strong>.
+        </p>
+        <p class="dev-tag">
+          تم التصميم والتطوير باستخدام HTML و CSS و Vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container (Accessible) -->
+  <div class="toast-container" id="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

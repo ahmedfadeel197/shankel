@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="60%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#cGrad2)" />
+  
+  <circle cx="500" cy="180" r="130" fill="#6366f1" opacity="0.15" />
+
+  <g transform="translate(60, 60)">
+    <!-- Badge -->
+    <rect width="130" height="32" rx="16" fill="#4f46e5" />
+    <text x="65" y="21" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">المستوى المتقدم</text>
+
+    <!-- Main Title -->
+    <text x="0" y="80" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="28">إتقان جافاسكربت المعمقة</text>
+    <text x="0" y="115" fill="#a5b4fc" font-family="sans-serif" font-weight="bold" font-size="20">Deep JavaScript &amp; Architecture</text>
+
+    <!-- Tech Topics -->
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="105" height="36" rx="8" fill="#1e1b4b" stroke="rgba(255,255,255,0.2)" />
+      <text x="52" y="23" fill="#fbbf24" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Event Loop</text>
+      
+      <rect x="120" y="0" width="95" height="36" rx="8" fill="#1e1b4b" stroke="rgba(255,255,255,0.2)" />
+      <text x="167" y="23" fill="#a5b4fc" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Closures</text>
+
+      <rect x="230" y="0" width="115" height="36" rx="8" fill="#1e1b4b" stroke="rgba(255,255,255,0.2)" />
+      <text x="287" y="23" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Async/Await</text>
+
+      <rect x="360" y="0" width="115" height="36" rx="8" fill="#1e1b4b" stroke="rgba(255,255,255,0.2)" />
+      <text x="417" y="23" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Patterns</text>
+    </g>
+  </g>
+</svg>

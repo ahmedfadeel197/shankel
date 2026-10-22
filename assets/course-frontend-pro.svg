@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#cGrad1)" />
+  
+  <!-- Geometric decorative rings -->
+  <circle cx="480" cy="180" r="140" fill="none" stroke="rgba(56,189,248,0.2)" stroke-width="2" />
+  <circle cx="480" cy="180" r="100" fill="none" stroke="rgba(56,189,248,0.3)" stroke-width="2" stroke-dasharray="8 6" />
+
+  <g transform="translate(60, 60)">
+    <!-- Badge -->
+    <rect width="130" height="32" rx="16" fill="#0369a1" />
+    <text x="65" y="21" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">مسار الواجهات</text>
+
+    <!-- Main Title -->
+    <text x="0" y="80" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="28">احتراف تطوير واجهات الويب</text>
+    <text x="0" y="115" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="20">Modern Front-End Masterclass</text>
+
+    <!-- Tech Icons row -->
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="80" height="36" rx="8" fill="#131d31" stroke="rgba(255,255,255,0.15)" />
+      <text x="40" y="23" fill="#e2e8f0" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">HTML5</text>
+      
+      <rect x="95" y="0" width="80" height="36" rx="8" fill="#131d31" stroke="rgba(255,255,255,0.15)" />
+      <text x="135" y="23" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">CSS3</text>
+
+      <rect x="190" y="0" width="80" height="36" rx="8" fill="#131d31" stroke="rgba(255,255,255,0.15)" />
+      <text x="230" y="23" fill="#facc15" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">JS ES6+</text>
+
+      <rect x="285" y="0" width="90" height="36" rx="8" fill="#131d31" stroke="rgba(255,255,255,0.15)" />
+      <text x="330" y="23" fill="#a78bfa" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">UI/UX RTL</text>
+    </g>
+  </g>
+</svg>
